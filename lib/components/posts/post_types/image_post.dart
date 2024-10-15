@@ -30,7 +30,7 @@ class _ImagePostState extends State<ImagePost> {
   Widget build(BuildContext context) {
     List<String> imageUrls =
         List<String>.from(widget.postContent['images'] ?? []);
-    String? description = widget.postContent['description'] as String?;
+    String? description = widget.postContent['content'] as String?;
 
     if (imageUrls.isEmpty) {
       return SizedBox(height: widget.height);
