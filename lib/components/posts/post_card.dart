@@ -32,13 +32,13 @@ class PostCard extends StatelessWidget {
 
             const SizedBox(height: 10),
             _buildLikeCommentSection(context),
-            if (post['latest_comment'] != null) ...[
-              const SizedBox(height: 10),
-              Text(
-                'Latest comment: ${post['latest_comment']['content']}',
-                style: const TextStyle(fontStyle: FontStyle.italic),
-              ),
-            ],
+            // if (post['latest_comment'] != null) ...[
+            //   const SizedBox(height: 10),
+            //   Text(
+            //     'Latest comment: ${post['latest_comment']['content']}',
+            //     style: const TextStyle(fontStyle: FontStyle.italic),
+            //   ),
+            // ],
           ],
         ),
       ),
